@@ -1,0 +1,246 @@
+*{   
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+span{
+    color: #E55473;
+}
+.header{
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.10);
+    background-image: url('../Flower Asset/pngwing 10.png') ;
+    background-size: 35%;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+
+}
+.left-banner{
+    width: 450px;
+    padding-top: 150px;
+    padding-left: 200px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.banner-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px; 
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom:15px;
+ }
+ .btn-primary{
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    background: #E55473;
+    padding: 10px 20px;
+ }
+
+ /* Feature section */
+ .features-section{
+    background: #FFF;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 150px;
+ }
+ .features-section-intro{
+    margin-top: 150px;
+    text-align: center;
+ }
+ .feature-title{
+   color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+ }
+ .feature-description{
+    
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+ }
+ .feature-box-images{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+ }
+
+ .box-1{
+    width: 350px;
+    height: 450px; 
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    background-image: url('../Flower Asset/pngwing\ 6.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 80%;
+ }
+ .box-2{
+
+    width: 350px;
+    height: 450px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    background-image: url('../Flower Asset/pngwing\ 5.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 80%;
+ }
+ .box-3{
+    width: 350px;
+    height: 450px;   
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    background-image: url('../Flower Asset/pngwing\ 7.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 80%;
+ }
+ .img-des{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 470px;
+}
+
+.offer{
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+}
+.left-off-div{
+    width: 450px;
+    align-items: center;
+    text-align: center;
+    margin-left: 10%;
+}
+.off-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.off-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+.off-img{
+    margin-right: 20% ;
+}
+
+/* Social section */
+.social-container{
+    background: #FFF;
+}
+.social-info{
+    width: 100%;
+    text-align: center;
+    padding-top: 80px;
+}
+.social-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+}
+.social-description{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px; 
+}
+.social-images{
+    padding-top: 40px;
+    width: 75%;
+    display: flex;
+    gap: 10px;
+    margin:auto;
+}
+.social-img{
+   width: 250px;
+   height: 300px;
+}
+/* Form section */
+.form{
+    background-image: url("../Flower Asset/Rectangle\ 9.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 80px 0px ;
+}
+.form-title{
+    padding-bottom: 15px;
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+.discount{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+.text-box{
+    padding: 15px 200px ;
+    border-radius: 5px;
+    border: none;
+    background: #FFF;
+}
+.btn-subs{
+    font-size: 15px;
+    border-radius: 6px;
+    background: #E55473;
+    color: #FFF;
+    padding: 15px;
+    border: 0px;  
+}
+/* Footer Section */
+.footer-container{
+    text-align: center;
+    background: #111010;
+    margin-top: 150px;
+    padding: 120px 120px;
+}
+.footer-title{
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.footer-description{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 25px;
+}
+.footer-end{
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
+}
